@@ -1,0 +1,16 @@
+[project]
+name = "hello-svc"
+version  ="0"
+requires-python = "==3.13.*"
+dependencies = [
+    "fastapi", "granian", "stamina"
+]
+
+[dependency-groups]
+dev = ["fastapi[standard]", "pytest"]
+
+
+[build-system]
+#requires = ["uv>=0.6.6"]
+requires = ["uv_build>=0.6.6,<0.7"]
+build-backend = "uv_build"
