@@ -1,2 +1,7 @@
 src/.DS_Store
 *.pyc
+.idea/hynek_schlawacks_2025_uv_based_python_project.iml
+.idea/inspectionProfiles/profiles_settings.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
